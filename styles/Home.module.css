@@ -1,0 +1,60 @@
+/* styles/Home.module.css */
+.container {
+    padding: 20px;
+    /* background-color: #808080;  */
+}
+
+.heading {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.ContentCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #00ff00; /* Bright green background color */
+    padding: 20px;
+    border-radius: 10px; /* Add rounded corners */
+    margin: 0 auto; /* Center the card horizontally */
+    max-width: auto; 
+}
+
+.cardContainer {
+    display: flex;
+    justify-content: center;
+    background-color: #ff7300;
+    align-items: center;
+    flex-wrap: wrap; /* Adjusted to allow projects to wrap to the next line */
+}
+
+.navigationButtons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.navigationButtons button {
+    background-color: #1a3c9b; /* Dark blue background color */
+    color: #ffffff; /* White text color */
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.navigationButtons button:hover {
+    background-color: #30579b; /* Slightly lighter blue on hover */
+}
+
+.navigationButtons button:disabled {
+    background-color: #6d6d6d; /* Grey color for disabled state */
+    cursor: not-allowed;
+}
+
+
